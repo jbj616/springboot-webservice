@@ -1,6 +1,7 @@
 package com.jbj616.springboot.config.auth;
 
 import com.jbj616.springboot.config.auth.dto.SessionUser;
+import com.jbj616.springboot.domain.user.User;
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.MethodParameter;
 import org.springframework.stereotype.Component;
@@ -29,6 +30,7 @@ public class LoginUserArgumentResolver implements HandlerMethodArgumentResolver 
     @Override
     public Object resolveArgument(MethodParameter parameter, ModelAndViewContainer mavContainer,
                                   NativeWebRequest webRequest, WebDataBinderFactory binderFactory) throws Exception {
+        System.out.println("heelo");
         return httpSession.getAttribute("user");
     }
 }
