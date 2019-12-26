@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.jbj616.springboot.web.dto.HelloResponseTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-26T13:18:19" hostname="BYEONGJAEui-MacBookPro.local" time="0.003">
+  <properties/>
+  <testcase name="롬복_기능_test" classname="com.jbj616.springboot.web.dto.HelloResponseTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
